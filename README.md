@@ -18,17 +18,19 @@ Why this project? After years, I've noticed that **I prefer to have few (importa
 
 ## Install
 
-1) Unzip this package in a directory, e.g. `/var/www/mywebsite`, it will create a `aayi` subfolder.
+* Unzip this package into `/var/www/mywebsite/aayi` or simply do this from `/var/www/mywebsite`:
 
-2) Give the appropriate permissions/owner if necessary with `chown www-data: aayi -R`.
+    git clone https://github.com/josephernest/aayi.git
 
-3) Add the following tracking code to your websites at then end of your website's main PHP file, e.g. `/var/www/mywebsite/index.php`:
+* Give the appropriate permissions/owner if necessary with `chown www-data: aayi -R`.
+
+* Add the following tracking code to your websites at then end of your website's main PHP file, e.g. `/var/www/mywebsite/index.php`:
 
         <?php include('aayi/tracker.php'); ?>
 
-4) **Default password is `abcdef`**, you can optionally create a `config.php` containing `<?php $PASSWORD = 'mypassword'; ?>`;
-
 It's done! Visit at least once your website, and visit the analytics homepage: `https://example.com/aayi/`.
+
+The **default password is `abcdef`**, you can optionally create a `config.php` containing your real password `<?php $PASSWORD = '...'; ?>`.
 
 ## Todo
 
