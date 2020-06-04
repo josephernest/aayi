@@ -30,7 +30,7 @@ Why this project? After years, I've noticed that **I prefer to have few (importa
 
 It's done! Visit at least once your website, and visit the analytics homepage: `https://example.com/aayi/`.
 
-The **default password is `abcdef`**, you can optionally create a `config.php` containing your real password `<?php $PASSWORD = '...'; ?>`.
+The **default password is `abcdef`**, you can optionally create a `config.php` with `<?php $PASSWORD = '...'; ?>`.
 
 ## Todo
 
