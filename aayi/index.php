@@ -39,13 +39,13 @@ if (($log = fopen("aayi.log", "r")) !== FALSE) {
         $visitors[$rowdate][] = $ip;
     }
     fclose($log);
-}    
+}   
+$points = '';
 for ($i = 0; $i < 30; $i++) {
     $key = date("Y-m-d", time() - $i * 3600 * 24);
     $y = ((isset($visitors[$key])) ? count($visitors[$key]) : 0);
     $points .= $y . ',';
 }
-
 echo '<div class="chart" data="' . substr($points, 0, -1) . '"></div>';
 echo '<div id="ref"><strong>Referers</strong><br>';
 foreach ($referers as $url => $mult) {
