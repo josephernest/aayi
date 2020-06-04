@@ -20,7 +20,7 @@ Why this project? After years, I've noticed that **I prefer to have few (importa
 
 * Unzip this package into `/var/www/mywebsite/aayi` or simply do this from `/var/www/mywebsite`:
 
-    git clone https://github.com/josephernest/aayi.git
+        git clone https://github.com/josephernest/aayi.git
 
 * Give the appropriate permissions/owner if necessary with `chown www-data: aayi -R`.
 
