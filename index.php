@@ -48,6 +48,7 @@ for ($i = 0; $i < 30; $i++) {
 }
 echo '<div class="chart" data="' . substr($points, 0, -1) . '"></div>';
 echo '<div id="ref"><strong>Referers</strong><br>';
+arsort($referers);
 foreach ($referers as $url => $mult) {
     if ($url !== '')
         echo '<div class="link">' . $mult . ': <a href="' . $url . '">' . $url . '</a></div>';
