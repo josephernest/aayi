@@ -28,7 +28,7 @@ Why this project? After years, I've noticed that **I prefer to have few (importa
 
 4) **Default password is `abcdef`**, you can optionally create a `config.php` containing `<?php $PASSWORD = 'mypassword'; ?>`;
 
-It's done! Visit at least once your website, and visit the analytics homepage:`https://example.com/aayi/`.
+It's done! Visit at least once your website, and visit the analytics homepage: `https://example.com/aayi/`.
 
 ## Todo
 
