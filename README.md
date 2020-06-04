@@ -8,17 +8,17 @@
 
 * it should be lightweight and take < 1 minute to deploy on a new website.
 
-Why the name **Aayi**? It's *"Analytics"* with only the vowels!
+Why the name **Aayi**? It's *"AnAlYtIcs"* with only the vowels!
 
 If you're looking for more information than those (such as country, browser, screen resolution, time spent on a page, etc.), then **Aayi** is not the right tool for you. Please try [Google Analytics](https://analytics.google.com), [Open Web Analytics](https://www.openwebanalytics.com/) or [Piwik](https://www.piwik.org/) instead. I personally found the two last ones [not very handy for me](http://afewthingz.com/aboutanalytics).
 
-Why this projetc? After years, I've noticed that **I prefer to have few (important) information that I can consult each day in 30 seconds**, rather than lots of informations for which I would need 15 or 30 minutes per day for an in-depth analysis.
+Why this project? After years, I've noticed that **I prefer to have few (important) information that I can consult each day in 30 seconds**, rather than lots of informations for which I would need 15 or 30 minutes per day for an in-depth analysis.
 
 ## Install
 
 1) Unzip this package in a directory, e.g. `/var/www/mywebsite`, it will create a `aayi` subfolder.
 
-2) Give the appropriate permissions/owner if necessary with `chmod 755 aayi` or `chown www-data: aayi -R`.
+2) Give the appropriate permissions/owner if necessary with `chown www-data: aayi -R`.
 
 3) Add the following tracking code to your websites at then end of your website's main PHP file, e.g. `/var/www/mywebsite/index.php`:
 
@@ -26,11 +26,11 @@ Why this projetc? After years, I've noticed that **I prefer to have few (importa
 
 4) **Default password is `abcdef`**, you can optionally create a `config.php` containing `<?php $PASSWORD = 'mypassword'; ?>`;
 
-It's done! Visit at least once your website, and visit the analytics homepage:`example.com/aayi/`.
+It's done! Visit at least once your website, and visit the analytics homepage:`https://example.com/aayi/`.
 
 ## Todo
 
-* (Maybe but only if same user experience) Replace Google Charts JavaScript code by another open-source chart-generating JavaScript library
+* (Maybe but only if same user experience) Replace Google Charts JavaScript code by another open-source chart-generating JavaScript library?
 
 * Some websites don't expose referer, [is there a way](https://stackoverflow.com/q/41466351/1422096) to solve this? 
 
