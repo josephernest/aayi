@@ -1,16 +1,18 @@
-# Aayi
+# aayi
 
-<img src="http://gget.it/27cgzhtl/TinyAnalytics.png" width="900"/>
-
-**Aayi** is a website analytics tool based on the idea that:
+**aayi** is a website analytics tool based on the idea that:
 
 * we want the **number of unique visitors per day** (with a nice chart) and the **list of referers** who send some traffic to your website
 
 * it should be lightweight and take < 1 minute to deploy on a new website.
 
-Why the name **Aayi**? It's *"AnAlYtIcs"* with only the vowels!
+Why the name **aayi**? It's *"AnAlYtIcs"* with only the vowels! 
 
-If you're looking for more information than those (such as country, browser, screen resolution, time spent on a page, etc.), then **Aayi** is not the right tool for you. Please try [Google Analytics](https://analytics.google.com), [Open Web Analytics](https://www.openwebanalytics.com/) or [Piwik](https://www.piwik.org/) instead. I personally found the two last ones [not very handy for me](http://afewthingz.com/aboutanalytics).
+Here is how it looks:
+
+![](https://i.imgur.com/hx9rbJX.png)
+
+If you're looking for more information than those (such as country, browser, screen resolution, time spent on a page, etc.), then **aayi** is not the right tool for you. Please try [Google Analytics](https://analytics.google.com), [Open Web Analytics](https://www.openwebanalytics.com/) or [Piwik](https://www.piwik.org/) instead. I personally found the two last ones [not very handy for me](http://afewthingz.com/aboutanalytics).
 
 Why this project? After years, I've noticed that **I prefer to have few (important) information that I can consult each day in 30 seconds**, rather than lots of informations for which I would need 15 or 30 minutes per day for an in-depth analysis.
 
