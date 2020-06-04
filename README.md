@@ -10,7 +10,7 @@ Why the name **aayi**? It's *"AnAlYtIcs"* with only the vowels!
 
 Here is how it looks:
 
-![](https://i.imgur.com/hx9rbJX.png)
+![](https://i.imgur.com/QDqKLHy.png)
 
 If you're looking for more information than those (such as country, browser, screen resolution, time spent on a page, etc.), then **aayi** is not the right tool for you. Please try [Google Analytics](https://analytics.google.com), [Open Web Analytics](https://www.openwebanalytics.com/) or [Piwik](https://www.piwik.org/) instead. I personally found the two last ones [not very handy for me](http://afewthingz.com/aboutanalytics).
 
