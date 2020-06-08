@@ -18,7 +18,7 @@ Why this project? After years, I've noticed that **I prefer to have few (importa
 
 ## Install
 
-* Unzip this package into `/var/www/mywebsite/aayi` or simply do this from `/var/www/mywebsite`:
+* Unzip [this package](https://github.com/josephernest/aayi/archive/master.zip) into `/var/www/mywebsite/aayi` or simply do this from `/var/www/mywebsite`:
 
         git clone https://github.com/josephernest/aayi.git
 
